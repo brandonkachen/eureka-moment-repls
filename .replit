@@ -1,0 +1,2 @@
+run = "csc pretest.cs && pretest"
+language = "C#" # optional
