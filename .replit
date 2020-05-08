@@ -1,2 +1,2 @@
-run = "csc pretest.cs && pretest"
+run = "csc main.cs && mono main.exe"
 language = "C#" # optional

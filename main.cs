@@ -4,6 +4,7 @@ public class MergeNames
 {
   public static string[] UniqueNames(string[] names1, string[] names2)
   {
+    // TODO: Add your code here!
     throw new NotImplementedException();
   }
 
