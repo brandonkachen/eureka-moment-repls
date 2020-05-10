@@ -14,6 +14,19 @@ public class AlertService
   {
     return this.storage.GetAlert(id);
   }
+
+  public static void Main(string[] args)
+  {
+    /*
+    Problem #2
+    Refactor the AlertService and AlertDAO classes:
+
+    * Create a new interface, named IAlertDAO, that contains the same methods as AlertDAO.
+    * AlertDAO should implement the IAlertDAO interface.
+    * AlertService should have a constructor that accepts IAlertDAO.
+    * The RaiseAlert and GetAlertTime methods should use the object passed through the constructor.
+    */
+  }
 }
 
 public class AlertDAO
@@ -30,27 +43,5 @@ public class AlertDAO
   public DateTime GetAlert(Guid id)
   {
     return this.alerts[id];
-  }
-
-  public static void Main(string[] args)
-  {
-    try
-    {
-      /* 
-      Problem #1
-      Implement the UniqueNames method. When passed two arrays of names, 
-      it will return an array containing the names that appear in either or both arrays. 
-      The returned array should have no duplicates.
-
-      For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'}, new string[]{'Olivia', 'Sophia', 'Emma'}) 
-      should return an array containing Ava, Emma, Olivia, and Sophia in any order.
-      */
-      string[] names1 = new string[] { "Ava", "Emma", "Olivia" };
-      string[] names2 = new string[] { "Olivia", "Sophia", "Emma" };
-    }
-    catch (Exception ex)
-    {
-      Console.WriteLine("Problem #1: " + ex.Message);
-    }
   }
 }
