@@ -25,6 +25,8 @@ public class AlertService
     * AlertDAO should implement the IAlertDAO interface.
     * AlertService should have a constructor that accepts IAlertDAO.
     * The RaiseAlert and GetAlertTime methods should use the object passed through the constructor.
+
+    You may use this space for any tests of your own.
     */
   }
 }

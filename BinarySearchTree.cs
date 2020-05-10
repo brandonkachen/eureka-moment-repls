@@ -44,6 +44,8 @@ public class BinarySearchTree
       n2 (Value: 2, Left: n1, Right: n3)
       n3 (Value: 3, Left: null, Right: null)
       Call to Contains(n2, 3) should return true since a tree with root at n2 contains number 3.
+
+      You may use this space for any tests of your own.
       */
       Node n1 = new Node(1, null, null);
       Node n3 = new Node(3, null, null);

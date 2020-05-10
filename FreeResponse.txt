@@ -1,0 +1,36 @@
+This part of the pretest contains high-level general-answer questions. Please limit each of your answers to < 5 sentences. For this section, do not reference any outside resources.
+
+1. On a scale between 1 and 10, what is your familiarity with the following topics in the context of computer programming? (1 means no familiarity, 10 means expert-level knowledge.)
+
+C++ language: 
+C++ history and modern-day relevance:
+classes:
+structs:
+constructors & destructors:
+pointers:
+references:
+inheritance:
+polymorphism: 
+recursion:
+linked lists:
+stacks:
+queues:
+priority queues:
+trees: 
+heaps:
+graphs:
+hash tables:
+Big O notation:
+sorting:
+
+2. What is the difference between compiling and running a program?
+A: 
+
+3. What is the difference between a public and private class?
+A: 
+
+4. How are arrays different than strings?
+A: 
+
+5. What are the differences between for, while, do-while loops? When would you use each?
+A: 

@@ -1,10 +1,12 @@
+// MergeNames
+
 using System;
 
 public class MergeNames
 {
   public static string[] UniqueNames(string[] names1, string[] names2)
   {
-    // TODO: Add your code here!
+    // fixme
     throw new NotImplementedException();
   }
 
@@ -20,6 +22,8 @@ public class MergeNames
 
       For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'}, new string[]{'Olivia', 'Sophia', 'Emma'}) 
       should return an array containing Ava, Emma, Olivia, and Sophia in any order.
+
+      You may use this space for any tests of your own.
       */
       string[] names1 = new string[] { "Ava", "Emma", "Olivia" };
       string[] names2 = new string[] { "Olivia", "Sophia", "Emma" };
