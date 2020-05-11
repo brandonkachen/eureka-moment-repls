@@ -18,7 +18,6 @@ public class AlertService
   public static void Main(string[] args)
   {
     /*
-    Problem #2
     Refactor the AlertService and AlertDAO classes:
 
     * Create a new interface, named IAlertDAO, that contains the same methods as AlertDAO.

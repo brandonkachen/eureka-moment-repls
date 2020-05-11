@@ -22,6 +22,7 @@ Welcome to your pretest! We're hosting it on [repl.it](repl.it) because it handl
 
 The test is structured as a series of self-contained files, each corresponding with subproblems on a topic. For example, `Classes.cs` will contain all the necessary code to get you started on the section about classes. Errors in one program will not affect the results in other programs. Feel free to solve any of these questions in whatever order you choose. Look for comments titled `fixme` or `todo`, as they will indicate the lines of code you should change.
 
+
 If you want to run each test individually, you can type in the following commands in the terminal:
 
 ```bash
@@ -42,6 +43,8 @@ There are 6 sections to this test:
 4. ControlFlowAndArrays
 5. FreeResponses
 6. MergeNames
+
+Important Note: while some of these sections tests that already created for you, they are only there to help you sanity check. I will use a different testbench to evaluate your answers.
 
 ## Submitting
 

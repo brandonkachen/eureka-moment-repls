@@ -20,6 +20,7 @@ public class BinarySearchTree
 {
   public static bool Contains(Node root, int value)
   {
+    // fixme
     throw new NotImplementedException("Waiting to be implemented.");
   }
 
@@ -29,7 +30,6 @@ public class BinarySearchTree
     try
     {
       /*
-      Problem #3
       Binary search tree (BST) is a binary tree where the value 
       of each node is larger or equal to the values in all the nodes 
       in that node's left subtree and is smaller than the values 
@@ -55,7 +55,7 @@ public class BinarySearchTree
     }
     catch (Exception ex)
     {
-      Console.WriteLine("Problem #3: " + ex.Message);
+      Console.WriteLine("BinarySearchTree: " + ex.Message);
     }
   }
 }
