@@ -1,0 +1,1 @@
+clang++-7 -pthread -std=c++11 -o main main.cpp
